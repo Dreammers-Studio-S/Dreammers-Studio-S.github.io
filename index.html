@@ -316,6 +316,22 @@
       font-size: 0.96rem;
     }
 
+    .app-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .app-card-cta {
+      margin-top: auto;
+      padding-top: 16px;
+      font-weight: 700;
+      color: var(--secondary);
+    }
+
+    .app-card:hover .app-card-cta {
+      color: var(--text);
+    }
+
     .about {
       margin-top: 22px;
       padding: 30px;
@@ -405,6 +421,7 @@
       </a>
 
       <nav>
+        <a href="#apps">Apps</a>
         <a href="#about">About</a>
         <a href="#products">Products</a>
         <a href="#contact">Contact</a>
@@ -431,7 +448,7 @@
           </p>
 
           <div class="actions">
-            <a class="btn btn-primary" href="#products">Explore Our Work</a>
+            <a class="btn btn-primary" href="#apps">Explore Our Apps</a>
             <a class="btn btn-ghost" href="#contact">Contact Us</a>
           </div>
         </div>
@@ -448,6 +465,35 @@
               friendly, and meaningful.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section id="apps">
+        <h2 class="section-title">Our Apps</h2>
+        <p class="section-desc">
+          Tap an app to view its details, privacy policy, and terms of service.
+        </p>
+
+        <div class="grid" style="grid-template-columns: repeat(2, 1fr);">
+          <a class="card app-card" href="/remote-tv/">
+            <div class="icon">📺</div>
+            <h3>Remote TV</h3>
+            <p>
+              Turn your phone into a simple, universal remote for your Smart TV over
+              your local Wi-Fi network.
+            </p>
+            <span class="app-card-cta">Privacy &amp; Terms →</span>
+          </a>
+
+          <a class="card app-card" href="/icalculator/">
+            <div class="icon">🧮</div>
+            <h3>iCalculator</h3>
+            <p>
+              A fast, beautiful calculator with a powerful Home Screen widget. Save,
+              name, and keep a tidy history — all on your device.
+            </p>
+            <span class="app-card-cta">Privacy &amp; Terms →</span>
+          </a>
         </div>
       </section>
 
