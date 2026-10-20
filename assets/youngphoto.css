@@ -1,9 +1,9 @@
-/* Berry Cam brand theme. Loaded after /assets/legal.css on /berrycam/ pages only. */
+/* YoungPhoto brand theme. Loaded after /assets/legal.css on /youngphoto/ pages only. */
 :root {
-  --primary: #D6336C;      /* brand */
-  --secondary: #FF8FB8;    /* light tint, AA contrast on dark background */
-  --accent: #FFB3CF;
-  --brand-rgb: 214, 51, 108;
+  --primary: #6F7F5A;      /* brand */
+  --secondary: #BFCF9F;    /* light tint, AA contrast on dark background */
+  --accent: #D9CBA3;
+  --brand-rgb: 111, 127, 90;
 }
 
 body {
